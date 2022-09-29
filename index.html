@@ -12,16 +12,50 @@
 </head>
 
 <style>
+
     body {
         background-color: #f5db73;
+    }
+
+    .heading {
+      background-color: #ece8e2;
+    }
+    .star {
+      color: black;
+    }
+
+    .hr1 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .highlight {
+        color: #f5db73;
+    }
+
+    .width {
+        
+        margin-left: 1.3rem;
+    }
+
+    .progress {
+        width: 75% ;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    button {
+      color: grey;
     }
 </style>
 
 <body>
-    <div class="container-fluid bg-light">
+    
+    <div class="container-fluid heading">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
             <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-              <img src="logo.png" class="bi me-2" width="115" height="65" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use>
+              <img src="logo.png" class="bi me-2" width="115" height="60" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use>
             </a>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -31,7 +65,7 @@
             </ul>
       
             <div class="col-md-3 text-end">
-              <button type="button" class="btn btn-primary">Sign-up</button>
+              <button type="button" class="btn btn-success">Sign-up</button>
             </div>
           </header>
     </div>
@@ -112,59 +146,103 @@
                         <button type="button" class="btn btn-sm btn-outline-secondary">View Curriculm</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Enroll</button>
                       </div>
-                      <small class="text-muted">3 / 6 / 12 Months Duration</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="uiux.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
-      
-                  <div class="card-body bg-dark">
-                    <h4 class="card-text text-white text-center">UI/UX Design</h4>
-                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View Curriculm</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Enroll</button>
-                      </div>
                       <small class="text-muted">6 / 12 Months Duration</small>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow-sm">
-                  <img src="fullstack.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
-      
-                  <div class="card-body bg-dark">
-                    <h4 class="card-text text-white text-center">Full-Stack Development</h4>
-                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View Curriculm</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Enroll</button>
+                  <div class="card shadow-sm">
+                    <img src="uiux.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+        
+                    <div class="card-body bg-dark">
+                      <h4 class="card-text text-white text-center">UI/UX Design</h4>
+                      <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View Curriculm</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Enroll</button>
+                        </div>
+                        <small class="text-muted">8 / 16 Months Duration</small>
                       </div>
-                      <small class="text-muted">6 / 12 / 18 Months Duration</small>
                     </div>
                   </div>
                 </div>
-              </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="fullstack.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+        
+                    <div class="card-body bg-dark">
+                      <h4 class="card-text text-white text-center">Full-Stack Development</h4>
+                      <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View Curriculm</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Enroll</button>
+                        </div>
+                        <small class="text-muted"> 8 / 16  Months Duration</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
     </div>
-    <br><br><br>
+    <br><br>
+    <section class="pb-4">
+      <div class="bg-dark border rounded-2 mb-4">
+          <section>'
+            <br>
+            <h3 class="mb-4 fw-bold text-center text-white">QUARTERLY ONBOARDINGS</h3>
+            <hr class="my-4 hr1 text-white">
+              <h5 class="my-2 ml-4 text-white width">~ Multimedia Arts | at 50%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar bg-warning progress-bar-transition" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <h5 class="my-2 ml-4 text-white width">~ Cinematography | at 90%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar bg-warning progress-bar-transition" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <h5 class="my-2 ml-4 text-white width">~ Animation | at 60%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar bg-warning progress-bar-transition" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <h5 class="my-2 ml-4 text-white width">~ Data Analytics | at 42%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar bg-warning progress-bar-transition" role="progressbar" style="width: 42%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <h5 class="my-2 ml-4 text-white width">~ UI/UX Design | at 100%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-warning progress-bar-transition" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <h5 class="my-2 ml-4 text-white width">~ Full-Stack Development | at 100%</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-warning progress-bar-transition" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            <br>
+            <div class="text-center">
+              <a class="btn btn-success btn-lg" href="#" role="button">ENROLL NOW</a>
+                  </div>
+          </section>
+          <br>
+        </section>
+        
+    <br>
 
     <div class="jumbotron container">
         <h1 class="display-4 fw-bold">LEARNING WHILE ADJUSTING TO THE NEW NORM, SIMPLIFIED!</h1>
-        <hr class="my-4">
+        <hr class="my-4 px-3">
         <p class="lead">
-            <h3 class="text-center">CLASS FEATURES</h3>
+            <h3 class="mb-4 fw-bold text-center">CLASS FEATURES</h3>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square text-dark flex-shrink-0 me-3">
-                    <img src="sublogo1.png" height="85" width="95"></i>
+                    <img src="sublogo1.png" height="65" width="70"></i>
                     <svg class="bi" width="0" height="0"><use xlink:href="#toggles2"></use></svg>
                   </div>
                   <div>
@@ -174,7 +252,7 @@
                 </div>
                 <div class="col d-flex align-items-start">
                   <div class="icon-square text-dark flex-shrink-0 me-3">
-                    <img src="sublogo2.png" height="85" width="90"></i>
+                    <img src="sublogo2.png" height="65" width="70"></i>
                     <svg class="bi" width="0" height="0"><use xlink:href="#cpu-fill"></use></svg>
                   </div>
                   <div>
@@ -184,7 +262,7 @@
                 </div>
                 <div class="col d-flex align-items-start">
                   <div class="icon-square text-dark flex-shrink-0 me-3">
-                    <img src="sublogo3.png" height="85" width="100"></i>
+                    <img src="sublogo3.png" height="62" width="75"></i>
                     <svg class="bi" width="0" height="0"><use xlink:href="#tools"></use></svg>
                   </div>
                   <div>
@@ -193,11 +271,118 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Sign-up</a>
-              </div>
         </p>
       </div>
+
+      <hr class="my-4">
+
+      <section class="w-100 p-4">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4 fw-bold">TESTIMONIALS</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure
+              provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
+              pariatur veniam.
+            </p>
+          </div>
+        </div>
+  
+        <div class="row text-center">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" class="rounded-circle shadow-1-strong" width="150" height="150">
+            </div>
+            <h5 class="mb-3">Maria Samantha</h5>
+            <h6 class="text-primary mb-3">Web Developer</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" class="rounded-circle shadow-1-strong" width="150" height="150">
+            </div>
+            <h5 class="mb-3">Lisa Cudrow</h5>
+            <h6 class="text-primary mb-3">Graphic Designer</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm star"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm star"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm star"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" class="rounded-circle shadow-1-strong" width="150" height="150">
+            </div>
+            <h5 class="mb-3">John Smith</h5>
+            <h6 class="text-primary mb-3">Marketing Specialist</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio dignissimos
+              ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm"></i>
+              </li>
+              <li>
+                <i class="far fa-star fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br><br>
+      </section>
+
+      <footer class="container">
+        <a href="#"><img src="logo.png" style="width: 140px; height: 80px;"></a>
+        <br><br><br>
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017–2021 Sunshine Virtual School · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
 </body>
 
 </html>
